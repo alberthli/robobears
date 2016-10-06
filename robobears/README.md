@@ -1,2 +1,0 @@
-# robobears
-Repository for RoboBears
