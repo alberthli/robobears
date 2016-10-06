@@ -22,6 +22,7 @@ body {
 	background: #dddddd;
 	margin-bottom: 150px;
 	height: 100%;
+	padding-top: 50px;
 }
 
 footer {
@@ -127,10 +128,6 @@ header .active {
 	height: 500px;
 }
 
-#words {
-	margin-top: 30px;
-}
-
 #bannertitle {
 	font-size: 100px;
 }
@@ -152,15 +149,6 @@ header .active {
 }
 
 #soccer {
-	border-top-width: 3px;
-	border-bottom-width: 3px;
-	border-left-width: 3px;
-	border-right-width: 3px;
-	border-top-color: black;
-	border-bottom-color: black;
-	border-left-color: black;
-	border-right-color: black;
-	border-style: solid;
 	background: url('../images/soccerteam.jpg') no-repeat center center fixed;
 	background-size: 100% 100%;
 }

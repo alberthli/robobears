@@ -12,6 +12,8 @@ header li a {
 body {
 	background: #dddddd;
 	margin-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 footer {
@@ -116,29 +118,23 @@ header .active {
 	height: 500px;
 }
 
-#leftchunk {
-	margin-top: 15%;
-}
-
 #leftchunk > .row {
 	font-size: 100px;
 	margin: 0;
 }
 
 #rightchunk {
-	margin-top: 5%;
+	margin-top: 2.5%;
 }
 
 #contentwrapper {
 	height: auto;
 	min-height: 100%;
 	box-sizing: border-box;
-	padding-bottom: 0;
 }
 
 #team {
 	position: relative;
-	top: -100px;
 }
 
 #meettheteam {

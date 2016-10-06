@@ -12,6 +12,7 @@ header li a {
 body {
 	background: #dddddd;
 	margin-bottom: 150px;
+	padding-top: 50px;
 }
 
 footer {
@@ -42,6 +43,47 @@ footer h6 {
 	right: 0;
 	top: -25px;
 	left: 275px;
+}
+
+.jumbotron {
+	height: 500px;
+	background-color: black;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 0;
+}
+
+.jumbotron > .backgroundimage {
+	position: absolute;
+	display: flex;
+	background-image: url('../images/background_img_1.jpg');
+	background-size: cover;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	opacity: .3;
+	width: 100%;
+	height: 100%;
+}
+
+.jumbotron > .container {
+	color: white;
+	text-shadow: 10px 10px 10px black;
+	vertical-align: middle;
+	height: 500px;
+}
+
+.leftchunk {
+}
+
+.leftchunk > .row {
+	font-size: 100px;
+	margin: 0;
+}
+
+.rightchunk {
 }
 
 #contactinfo div {
