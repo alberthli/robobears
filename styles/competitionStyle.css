@@ -70,6 +70,7 @@ footer h6 {
 	padding-top: 2.5px;
 	padding-right: 1px;
 	padding-left: 1px;
+	margin-bottom: 0;
 }
 
 header .active {
@@ -119,11 +120,47 @@ header .active {
 	height: 100%;
 }
 
-#information {
-	box-sizing: border-box;
+.jumbotron > .container {
+	color: white;
+	text-shadow: 10px 10px 10px black;
+	vertical-align: middle;
+	height: 500px;
+}
+
+#words {
+	margin-top: 30px;
+}
+
+#bannertitle {
+	font-size: 100px;
+}
+
+#top {
+	font-size: 40px;
+}
+
+#middle {
+	font-size: 40px;
+}
+
+#bottom {
+	font-size: 40px;
+}
+
+#row1 {
+	margin-bottom: 10px;
 }
 
 #soccer {
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	border-top-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	border-right-color: black;
+	border-style: solid;
 	background: url('../images/soccerteam.jpg') no-repeat center center fixed;
 	background-size: 100% 100%;
 }
@@ -138,4 +175,27 @@ header .active {
 
 #future {
 	font-size: 50px;
+}
+
+#secondline {
+	border: none;
+	border-bottom: 3px solid black;
+	width: 25%;
+}
+
+#buildlogbutton {
+	position: relative;
+}
+
+#buttons {
+	margin-bottom: 20px;
+}
+
+.btn:focus, .btn:active {
+   outline: none !important;
+}
+
+.btn a {
+	text-decoration: none !important;
+	color: #000000;
 }
