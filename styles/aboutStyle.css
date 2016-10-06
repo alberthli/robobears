@@ -94,7 +94,7 @@ header .active {
 	z-index: 1;
 }
 
-.jumbotron > .backgroundimage{
+.jumbotron > .backgroundimage {
 	position: absolute;
 	display: flex;
 	background-image: url('../images/background_img_1.jpg');
@@ -103,7 +103,6 @@ header .active {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	opacity: .3;
 	z-index: -1;
 	width: 100%;
 	height: 100%;
