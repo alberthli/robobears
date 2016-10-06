@@ -45,15 +45,22 @@ footer h6 {
 	left: 275px;
 }
 
+#sponsortitle {
+	font-size: 100px;
+}
+
+#words {
+	margin-top: 50px;
+}
+
 .jumbotron {
 	height: 500px;
 	background-color: black;
 	position: relative;
 	z-index: 1;
-	margin-bottom: 0;
 }
 
-.jumbotron > .backgroundimage {
+.jumbotron > .backgroundimage{
 	position: absolute;
 	display: flex;
 	background-image: url('../images/background_img_1.jpg');
@@ -62,8 +69,8 @@ footer h6 {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	z-index: -1;
 	opacity: .3;
+	z-index: -1;
 	width: 100%;
 	height: 100%;
 }
@@ -75,15 +82,16 @@ footer h6 {
 	height: 500px;
 }
 
-.leftchunk {
+#otl1 {
+	font-size: 65px;
 }
 
-.leftchunk > .row {
-	font-size: 100px;
-	margin: 0;
+#otl2 {
+	font-size: 65px;
 }
 
-.rightchunk {
+#otl3 {
+	font-size: 65px;
 }
 
 #contactinfo div {
