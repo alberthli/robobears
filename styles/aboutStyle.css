@@ -16,14 +16,44 @@ body {
 	padding-bottom: 50px;
 }
 
+.icon-ocf {
+	background-image: url("https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_silver8.png");
+    background-position: center center;
+    background-size: 100%;
+}
+
+.footer {
+    background: #cccccc;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.footer a:first-child {
+    border-left: 1px solid #70726F;
+}
+
+.footer a:hover {
+    color: white;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
 footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	padding-top: 15px;
-	background-color: #cccccc;
 	font-size: 20px;
 	height: 150px;
+	min-width: 960px;
 }
 
 footer .col-sm-4 {
@@ -31,12 +61,8 @@ footer .col-sm-4 {
 	color: #222222;
 }
 
-footer ul {
-	list-style: none;
-}
-
-footer h6 {
-	text-align: center;
+#footerwords {
+	color: #222222;
 }
 
 #logo {
