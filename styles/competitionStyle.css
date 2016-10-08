@@ -127,6 +127,7 @@ header .active {
 
 .jumbotron {
 	height: 500px;
+	width: 100%;
 	background-color: black;
 	position: relative;
 	z-index: 1;

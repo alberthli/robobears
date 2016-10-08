@@ -72,6 +72,10 @@ footer .col-sm-4 {
 	left: 275px;
 }
 
+#banner {
+	display: fill;
+}
+
 #contactinfo div {
 	margin-left: 10px;
 	font-size: 12px;
@@ -117,6 +121,7 @@ header .active {
 
 .jumbotron {
 	height: 500px;
+	width: 100%;
 	background-color: black;
 	position: relative;
 	z-index: 1;

@@ -28,46 +28,45 @@
     </head>
 
     <body>
+      <div style="min-width: 1080px; margin: 0 auto;">
 
-      <!--Navigation Bar-->
-      <header id="navigationbar" class="container">
-        <div class="row">
-          <ul class="nav navbar nav-justified navbar-fixed-top nav-custom" role="navigation">
-            <li>
-              <img src="images/RoboBears_Logo.svg" style="width: 25%; height: auto; margin-left: 100px;" href="index.html">
-            </li>
-            <li role="presentation"><a class="sliding-middle-out" href="home.html" style="position: relative;">home</a></li>
-            <li role="presentation"><a class="sliding-middle-out active" href="about.html" style="position: relative;">about</a></li>
-            <!--li role="presentation"><a class="sliding-middle-out" href="apply.html" style="position: relative;">apply</a></li-->
-            <li role="presentation"><a class="sliding-middle-out" href="competition.html" style="position: relative;">competition</a></li>
-            <!--<li role="presentation"><a class="sliding-middle-out" href="resources.html" style="position: relative;">resources</a></li>-->
-            <li role="presentation"><a class="sliding-middle-out" href="sponsors.html" style="position: relative;">sponsors</a></li>
-            <!--<li role="presentation"><a class="sliding-middle-out" href="donate.html" style="position: relative;">donate</a></li>-->
-            <span></span>
-          </ul>
-        </div>
-      </header>
+        <!--Navigation Bar-->
+        <header id="navigationbar" class="container">
+          <div class="row">
+            <ul class="nav navbar nav-justified navbar-fixed-top nav-custom" role="navigation">
+              <li>
+                <img src="images/RoboBears_Logo.svg" style="width: 25%; height: auto; margin-left: 100px;" href="index.html">
+              </li>
+              <li role="presentation"><a class="sliding-middle-out" href="home.html" style="position: relative;">home</a></li>
+              <li role="presentation"><a class="sliding-middle-out active" href="about.html" style="position: relative;">about</a></li>
+              <!--li role="presentation"><a class="sliding-middle-out" href="apply.html" style="position: relative;">apply</a></li-->
+              <li role="presentation"><a class="sliding-middle-out" href="competition.html" style="position: relative;">competition</a></li>
+              <!--<li role="presentation"><a class="sliding-middle-out" href="resources.html" style="position: relative;">resources</a></li>-->
+              <li role="presentation"><a class="sliding-middle-out" href="sponsors.html" style="position: relative;">sponsors</a></li>
+              <!--<li role="presentation"><a class="sliding-middle-out" href="donate.html" style="position: relative;">donate</a></li>-->
+              <span></span>
+            </ul>
+          </div>
+        </header>
 
-      <!--Banner-->
-      <div class="jumbotron">
-        <div class="container backgroundimage"></div>
-        <div class="container">
-        <div id="bannerhead" class="container col-xs-3 text-right">
-          <div id="leftchunk" class="container">
-            <h1 id="topword" class="row">what</h1>
-            <h1 id="middleword" class="row">we</h1>
-            <h1 id="bottomword" class="row">do</h1>
+        <!--Banner-->
+        <div id="banner" class="jumbotron container">
+          <div class="container backgroundimage"></div>
+          <div class="container">
+          <div id="bannerhead" class="container col-xs-3 text-right">
+            <div id="leftchunk" class="container">
+              <h1 id="topword" class="row">what</h1>
+              <h1 id="middleword" class="row">we</h1>
+              <h1 id="bottomword" class="row">do</h1>
+            </div>
+          </div>
+          <div id="rightchunk" class="container col-xs-8 text-left">
+            <p><strong>Like to create? So do we.</strong></p>
+            <p><strong>Since our inception, we have strived to provide a space that allows students to succeed with their peers as a team. Robotics isn't exactly easy, but that's what makes us stronger. From our seasoned design leads to our young and enterprising engineers, we welcome anyone willing to put themselves to the test and compete versus thousands of bright minds from around the world. In the coming years, we will grow, take on new competitions, and complete more projects.</strong></p>
+            <p><strong>We are a community of designers, creators, and innovators. We are RoboBears.</strong></p>
+          </div>
           </div>
         </div>
-        <div id="rightchunk" class="container col-xs-8 text-left">
-          <p><strong>Like to create? So do we.</strong></p>
-          <p><strong>Since our inception, we have strived to provide a space that allows students to succeed with their peers as a team. Robotics isn't exactly easy, but that's what makes us stronger. From our seasoned design leads to our young and enterprising engineers, we welcome anyone willing to put themselves to the test and compete versus thousands of bright minds from around the world. In the coming years, we will grow, take on new competitions, and complete more projects.</strong></p>
-          <p><strong>We are a community of designers, creators, and innovators. We are RoboBears.</strong></p>
-        </div>
-        </div>
-      </div>
-
-      <div id="contentwrapper" class="container">
 
         <!--*****************************************************************-->
         <!--EVENTUALLY INSERT CONTENT HERE! PICTURES/DESCRIPTIONS OF ROBOT(S)-->
@@ -285,34 +284,33 @@
 
         -->
 
+        <!--Footer-->
+        <footer id="footerwords" class="footer">
+          <div class="container">
+            <div class="container row">
+              <div class="container text-left">
+                <h4>Contact Us</h4>
+                <h5>email: robobears@berkeley.edu</h5>
+                  </div>
+              <div class="container text-right">
+                    <a onclick="" class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/groups/296657784040191/"><i class="fa fa-facebook"></i></a>
+                  <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox"><i class="fa fa-linkedin"></i></a>
+                  <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox" href="https://www.ocf.berkeley.edu/""><i class="icon-ocf"></i></a>
+                  </div>
+                </div>
+                <div class="container row text-center">
+                  <h6>We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.</h6>
+                </div>
+              </div>
+        </footer>
+
+    	  <!-- INCLUDED IN BOOTSTRAP TEMPLATE -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script language="JavaScript" type="text/javascript" src="bootstrap/node_modules/jquery/src/jquery.js"></script>
+    	  <script language="JavaScript" type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
       </div>
-
-      <!--Footer-->
-      <footer id="footerwords" class="footer">
-        <div class="container">
-          <div class="container row">
-            <div class="container text-left">
-              <h4>Contact Us</h4>
-              <h5>email: robobears@berkeley.edu</h5>
-                </div>
-            <div class="container text-right">
-                  <a onclick="" class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/groups/296657784040191/"><i class="fa fa-facebook"></i></a>
-                <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox"><i class="fa fa-linkedin"></i></a>
-                <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox" href="https://www.ocf.berkeley.edu/""><i class="icon-ocf"></i></a>
-                </div>
-              </div>
-              <div class="container row text-center">
-                <h6>We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.</h6>
-              </div>
-            </div>
-      </footer>
-
-  	  <!-- INCLUDED IN BOOTSTRAP TEMPLATE -->
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script language="JavaScript" type="text/javascript" src="bootstrap/node_modules/jquery/src/jquery.js"></script>
-  	  <script language="JavaScript" type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-
     </body>
 </html>
