@@ -212,6 +212,8 @@ header .active {
 
 .carousel {
 	height: 500px;
+	width: 100%;
+	margin-bottom: 20px;
 	background-color: black;
 }
 
@@ -279,6 +281,7 @@ header .active {
 
 .jumbotron {
 	height: 500px;
+	width: 100%;
 	background-color: black;
 }
 
