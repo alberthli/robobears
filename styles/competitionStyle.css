@@ -62,7 +62,7 @@ footer {
 	padding-top: 15px;
 	font-size: 20px;
 	height: 150px;
-	min-width: 960px;
+	min-width: 1080px;
 }
 
 footer .col-sm-4 {
@@ -152,6 +152,13 @@ header .active {
 	text-shadow: 10px 10px 10px black;
 	vertical-align: middle;
 	height: 500px;
+}
+
+#contentwrapper {
+	height: auto;
+	min-height: 100%;
+	min-width: 1080px;
+	box-sizing: border-box;
 }
 
 #bannertitle {
