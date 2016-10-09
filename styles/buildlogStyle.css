@@ -52,6 +52,16 @@ body {
 	font-size: 100px;
 }
 
+#logtitle{
+	font-size: 75px;
+}
+
+#line {
+	border: none;
+	border-bottom: 3px solid black;
+	width: 50%;
+}
+
 .icon-ocf {
 	background-image: url("https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_silver8.png");
     background-position: center center;

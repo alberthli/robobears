@@ -21,22 +21,39 @@ body {
 .jumbotron {
 	height: 500px;
 	width: 100%;
-	background-color: #1A2B55 !important;
+	background-color: black !important;
 	position: relative;
 	z-index: 1;
+	padding-bottom: 0;
 }
 
 .jumbotron > .backgroundimage {
-	background-position: center center;
-	display: flex;
-	background-image: url('../images/robobanner.jpg');
+	background-position: center;
 	background-size: cover;
+	position: relative;
+	display: flex;
+	background-image: url('../images/robobanner.png');
 	top: 0;
-	bottom: 20px;
+	bottom: 0;
 	left: 0;
 	right: 0;
-	z-index: 3;
+	z-index: -1;
 	height: 100%;
+}
+
+.overlay {
+	position: absolute;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	vertical-align: middle;
+	top: 350px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#title {
+	font-size: 100px;
 }
 
 .icon-ocf {
@@ -95,72 +112,10 @@ footer .col-sm-4 {
 	left: 275px;
 }
 
-#descriptionpics {
-	margin-top: 20px;
-	align-items: center;
-}
-
-#descriptionpics .panel {
-	font-size: 50px;
-	border: solid;
-	border-color: black;
-	margin-top: 20px;
-	height: 400px;
-	background-color: black;
-	text-align: center;
-	display: inline-block;
-
-	/*These four settings are if the pictures are spaced*/
-	/*text-align: center;
-	margin-right: 20px;
-	margin-left: 20px;
-	display: inline-block;
-	float: none;*/
-}
-
-#descriptionpics h1 {
-	position: absolute;
-	top: 45%;
-	left:50%;
-	transform: translate(-50%,-50%);
-	color: white;
-	text-shadow: 5px 5px 5px #000000;
-	opacity: 1 !important;
-}
-
-#designpanel {
-	background: url('../images/blueprint.jpg') no-repeat center center fixed;
-	background-size: 100% 100%;
-	opacity: .5;
-}
-
-#createpanel {
-	background: url('../images/solder.jpg') no-repeat center center fixed;
-	background-size: 100% 100%;
-	opacity: .5;
-}
-
-#innovatepanel {
-	background: url('../images/scorpion.jpg') no-repeat center center fixed;
-	background-size: 100% 100%;
-	opacity: .5;
-}
-
-#designpanel:hover {
-	opacity: 1;
-}
-
-#createpanel:hover {
-	opacity: 1;
-}
-
-#innovatepanel:hover {
-	opacity: 1;
-}
-
 #descriptionparagraph {
 	margin-top: 20px;
 	font-size: 20px;
+	z-index: 2;
 }
 
 #contactinfo div {
@@ -313,9 +268,11 @@ header .active {
 
 .btn:focus, .btn:active {
    outline: none !important;
+   z-index: 2;
 }
 
 .btn a {
 	text-decoration: none !important;
 	color: #000000;
+	z-index: 2;
 }
