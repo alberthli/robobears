@@ -14,6 +14,31 @@ body {
 	margin-bottom: 200px;
 }
 
+#banner {
+	display: fill;
+}
+
+.jumbotron {
+	height: 500px;
+	width: 100%;
+	background-color: #1A2B55 !important;
+	position: relative;
+	z-index: 1;
+}
+
+.jumbotron > .backgroundimage {
+	background-position: center center;
+	display: flex;
+	background-image: url('../images/robobanner.jpg');
+	background-size: cover;
+	top: 0;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	height: 100%;
+}
+
 .icon-ocf {
 	background-image: url("https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_silver8.png");
     background-position: center center;
