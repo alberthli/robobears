@@ -21,22 +21,35 @@ body {
 .jumbotron {
 	height: 500px;
 	width: 100%;
-	background-color: #1A2B55 !important;
+	background-color: black !important;
 	position: relative;
 	z-index: 1;
 }
 
 .jumbotron > .backgroundimage {
-	background-position: center center;
+	position: absolute;
 	display: flex;
-	background-image: url('../images/robobanner.jpg');
+	background-image: url('../images/boardwriting.jpg');
 	background-size: cover;
+	opacity: .5;
 	top: 0;
 	bottom: 20px;
 	left: 0;
 	right: 0;
-	z-index: 3;
+	z-index: -1;
 	height: 100%;
+}
+
+.jumbotron > .container {
+	color: white;
+	text-shadow: 10px 10px 10px black;
+	vertical-align: middle;
+	height: 500px;
+}
+
+#title {
+	margin-top: 175px;
+	font-size: 100px;
 }
 
 .icon-ocf {
