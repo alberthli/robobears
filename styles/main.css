@@ -304,12 +304,6 @@ header .active {
   	z-index: 4;
 }
 
-.jumbotron {
-	height: 500px;
-	width: 100%;
-	background-color: black;
-}
-
 #contentwrapper {
 	height: auto;
 	min-height: 100%;

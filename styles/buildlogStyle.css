@@ -1,0 +1,172 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+header li a {
+	color: #222222;
+	font-size: 17px;
+	font-weight: 200;
+}
+
+body {
+	background: #dddddd;
+	margin-bottom: 200px;
+}
+
+#banner {
+	display: fill;
+}
+
+.jumbotron {
+	height: 500px;
+	width: 100%;
+	background-color: #1A2B55 !important;
+	position: relative;
+	z-index: 1;
+}
+
+.jumbotron > .backgroundimage {
+	background-position: center center;
+	display: flex;
+	background-image: url('../images/robobanner.jpg');
+	background-size: cover;
+	top: 0;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	height: 100%;
+}
+
+.icon-ocf {
+	background-image: url("https://www.ocf.berkeley.edu/hosting-logos/ocfbadge_silver8.png");
+    background-position: center center;
+    background-size: 100%;
+}
+
+.footer {
+    background: #cccccc;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.footer a:first-child {
+    border-left: 1px solid #70726F;
+}
+
+.footer a:hover {
+    color: white;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-top: 15px;
+	font-size: 20px;
+	height: 150px;
+	min-width: 1080px;
+}
+
+footer .col-sm-4 {
+	display: flex;
+	color: #222222;
+}
+
+#footerwords {
+	color: #222222;
+}
+
+#logo {
+	position: absolute;
+	right: 0;
+	top: -25px;
+	left: 275px;
+}
+
+#designpanel:hover {
+	opacity: 1;
+}
+
+#createpanel:hover {
+	opacity: 1;
+}
+
+#innovatepanel:hover {
+	opacity: 1;
+}
+
+#descriptionparagraph {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+#contactinfo div {
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #000000;
+    background-color: transparent;
+}
+
+.navbar-fixed-top {
+	background-color: #cccccc;
+	height: 50px;
+	padding-top: 2.5px;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+
+header .active {
+	font-weight: bold;
+}
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 5px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+.sliding-middle-out:hover:after {
+	width: 100%;
+	background: black;
+}
+
+#contentwrapper {
+	height: auto;
+	min-height: 100%;
+	min-width: 1080px;
+	box-sizing: border-box;
+}
+
+.btn:focus, .btn:active {
+   outline: none !important;
+}
+
+.btn a {
+	text-decoration: none !important;
+	color: #000000;
+}
