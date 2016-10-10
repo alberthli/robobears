@@ -14,6 +14,63 @@ body {
 	margin-bottom: 200px;
 }
 
+header div {
+    display: block;
+}
+
+.header-nav-item{
+	float:left;
+}
+
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+#list ul{
+	list-style: none;
+	width: 100%;
+}
+
+#list li {
+		list-style-type: none;
+		display: inline-block;
+		margin-top: 20px;
+		margin-bottom: 10px;
+}
+
+.header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #cccccc;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+header .active {
+	font-weight: bold;
+}
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 5px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+.sliding-middle-out:hover:after {
+	width: 100%;
+	background: black;
+}
+
 #banner {
 	display: fill;
 }
@@ -25,6 +82,7 @@ body {
 	position: relative;
 	z-index: 1;
 	padding-bottom: 0;
+	padding-top: 0;
 }
 
 .jumbotron > .backgroundimage {
@@ -54,6 +112,12 @@ body {
 
 #title {
 	font-size: 100px;
+}
+
+#line {
+	border: none;
+	border-bottom: 3px solid black;
+	width: 50%;
 }
 
 .icon-ocf {
@@ -112,7 +176,7 @@ footer .col-sm-4 {
 	left: 275px;
 }
 
-#descriptionparagraph {
+#descriptionparagraph, #missionstatement {
 	margin-top: 20px;
 	font-size: 20px;
 	z-index: 2;
@@ -144,44 +208,25 @@ footer .col-sm-4 {
 	margin-left: 10px;
 }
 
-.nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #000000;
-    background-color: transparent;
+#contentwrapper {
+	height: auto;
+	min-height: 100%;
+	min-width: 1080px;
+	box-sizing: border-box;
 }
 
-.navbar-fixed-top {
-	background-color: #cccccc;
-	height: 50px;
-	padding-top: 2.5px;
-	padding-right: 1px;
-	padding-left: 1px;
+.btn:focus, .btn:active {
+   outline: none !important;
+   z-index: 2;
 }
 
-header .active {
-	font-weight: bold;
+.btn a {
+	text-decoration: none !important;
+	color: #000000;
+	z-index: 2;
 }
 
-.sliding-middle-out {
-	display: inline-block;
-	position: relative;
-	padding-bottom: 3px;
-}
-
-.sliding-middle-out:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 5px;
-	width: 0px;
-	background: transparent;
-	transition: width .5s ease, background-color .5s ease;
-}
-
-.sliding-middle-out:hover:after {
-	width: 100%;
-	background: black;
-}
-
+/* NO LONGER USEFUL, BUT I'M KEEPING THE CODE HERE JUST IN CASE WE WANT TO IMPLEMENT THIS AGAIN */
 .carousel-overlay {
     position: absolute;
     bottom: 100px;
@@ -257,22 +302,4 @@ header .active {
 
 .carousel-control {
   	z-index: 4;
-}
-
-#contentwrapper {
-	height: auto;
-	min-height: 100%;
-	min-width: 1080px;
-	box-sizing: border-box;
-}
-
-.btn:focus, .btn:active {
-   outline: none !important;
-   z-index: 2;
-}
-
-.btn a {
-	text-decoration: none !important;
-	color: #000000;
-	z-index: 2;
 }

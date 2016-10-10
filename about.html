@@ -31,23 +31,38 @@
       <div style="min-width: 1080px; margin: 0 auto;">
 
         <!--Navigation Bar-->
-        <header id="navigationbar" class="container">
-          <div class="row">
-            <ul class="nav navbar nav-justified navbar-fixed-top nav-custom" role="navigation">
-              <li>
-                <img src="images/RoboBears_Logo.svg" style="width: 25%; height: auto; margin-left: 100px;" href="index.html">
+        <header id="navigationbar">
+        <div class="header header-logged-in true" style="min-width:1080px;"role="banner">
+          <div class="row" style="white-space:nowrap;">
+            <ul id="list" class="header-nav float-left" role="navigation">
+              <li class="header-nav-item" style="margin-left:30px; margin-right:25px;">
+                <a href="home.html">
+                  <img src="images/RoboBears_Logo.svg" height="40" width="70">
+                </a>
               </li>
-              <li role="presentation"><a class="sliding-middle-out" href="home.html" style="position: relative;">home</a></li>
-              <li role="presentation"><a class="sliding-middle-out active" href="about.html" style="position: relative;">about</a></li>
-              <li role="presentation"><a class="sliding-middle-out" href="buildlog.html" style="position: relative;">buildlog</a></li>
-              <!--li role="presentation"><a class="sliding-middle-out" href="apply.html" style="position: relative;">apply</a></li-->
-              <li role="presentation"><a class="sliding-middle-out" href="competition.html" style="position: relative;">competition</a></li>
-              <!--<li role="presentation"><a class="sliding-middle-out" href="resources.html" style="position: relative;">resources</a></li>-->
-              <li role="presentation"><a class="sliding-middle-out" href="sponsors.html" style="position: relative;">sponsors</a></li>
-              <!--<li role="presentation"><a class="sliding-middle-out" href="donate.html" style="position: relative;">donate</a></li>-->
-              <span></span>
+              <li class="header-nav-item sliding-middle-out" style="margin-left:25px; margin-right:25px;">
+                <a class="js-selected-navigation-item header-nav-link active" href="about.html">
+                  &nbsp&nbsp&nbsp&nbspabout&nbsp&nbsp&nbsp&nbsp
+                </a>
+              </li>
+              <li class="header-nav-item sliding-middle-out" style="margin-left:25px; margin-right:25px;">
+                  <a class="js-selected-navigation-item header-nav-link" style="text-decoration:none" href="buildlog.html">
+                    &nbsp&nbsp&nbsp&nbspbuildlog&nbsp&nbsp&nbsp&nbsp
+                  </a>
+                </li>
+              <li class="header-nav-item"style="margin-left:25px; margin-right:25px;">
+                <a class="header-nav-link sliding-middle-out" style="text-decoration:none" href="competition.html">
+                  &nbsp&nbsp&nbsp&nbspcompetition&nbsp&nbsp&nbsp&nbsp
+                </a>
+              </li>
+              <li class="header-nav-item" style="margin-left:25px; margin-right:25px;">
+                <a class="header-nav-link sliding-middle-out" href="sponsors.html" style="text-decoration:none">
+                  &nbsp&nbsp&nbsp&nbspsponsors&nbsp&nbsp&nbsp&nbsp
+                </a>
+              </li>
             </ul>
           </div>
+        </div>
         </header>
 
         <!--Banner-->
@@ -63,8 +78,9 @@
           </div>
           <div id="rightchunk" class="container col-xs-8 text-left">
             <p><strong>Like to create? So do we.</strong></p>
-            <p><strong>Since our inception, we have strived to provide a space that allows students to succeed with their peers as a team. Robotics isn't exactly easy, but that's what makes us stronger. From our seasoned design leads to our young and enterprising engineers, we welcome anyone willing to put themselves to the test and compete versus thousands of bright minds from around the world. In the coming years, we will grow, take on new competitions, and complete more projects.</strong></p>
-            <p><strong>We are a community of designers, creators, and innovators. We are RoboBears.</strong></p>
+            <p><strong>Since our inception, we have strived to provide a space that allows students to succeed alongside their peers as a team. Robotics isn't exactly easy, but that's what makes us stronger. From our seasoned design leads to our young and enterprising engineers, we welcome anyone willing to put themselves to the test and compete versus thousands of bright minds from around the world. As we move forward, we will grow, take on new competitions, and complete more projects.</strong></p>
+            <p><strong>We are a community of designers, creators, and innovators.</strong></p>
+            <p><strong>We are RoboBears.</strong></p>
           </div>
           </div>
         </div>
@@ -165,6 +181,17 @@
             </div>
             <div id="engineerpictures" class="row">
 
+              <!--Generic Engineer Block - Adam N-->
+              <div class="container col-xs-4">
+                <div class="imgcontainer col-xs-2">
+                  <img class="headshot" src="images/adamn.jpg"/>
+                </div>
+                <div class="container col-xs-2">
+                  <h3><strong>Adam Navar</strong></h3>
+                  <h4>EECS</h4>
+                </div>
+              </div>
+
               <!--Generic Engineer Block - Anthony H-->
               <div class="container col-xs-4">
                 <div class="imgcontainer col-xs-2">
@@ -187,6 +214,17 @@
                 </div>
               </div>
 
+              <!--Generic Engineer Block - Dylan D-->
+              <div class="container col-xs-4">
+                <div class="imgcontainer col-xs-2">
+                  <img class="headshot" src="images/dylan.jpg"/>
+                </div>
+                <div class="container col-xs-2">
+                  <h3><strong>Dylan Duong</strong></h3>
+                  <h4>EECS</h4>
+                </div>
+              </div>
+
               <!--Generic Engineer Block - Ellin Z-->
               <div class="container col-xs-4">
                 <div class="imgcontainer col-xs-2">
@@ -195,6 +233,17 @@
                 <div class="container col-xs-2">
                   <h3><strong>Ellin Zhao</strong></h3>
                   <h4>EECS</h4>
+                </div>
+              </div>
+
+              <!--Generic Engineer Block - Ervin B-->
+              <div class="container col-xs-4">
+                <div class="imgcontainer col-xs-2">
+                  <img class="headshot" src="images/ervin.jpg"/>
+                </div>
+                <div class="container col-xs-2">
+                  <h3><strong>Ervin Baccay</strong></h3>
+                  <h4>EECS/Bio-Engineering</h4>
                 </div>
               </div>
 
@@ -216,39 +265,6 @@
                 </div>
                 <div class="container col-xs-2">
                   <h3><strong>Philip Hua</strong></h3>
-                  <h4>EECS</h4>
-                </div>
-              </div>
-
-              <!--Generic Engineer Block - Adam N-->
-              <div class="container col-xs-4">
-                <div class="imgcontainer col-xs-2">
-                  <img class="headshot" src="images/adamn.jpg"/>
-                </div>
-                <div class="container col-xs-2">
-                  <h3><strong>Adam Navar</strong></h3>
-                  <h4>EECS</h4>
-                </div>
-              </div>
-
-              <!--Generic Engineer Block - Ervin B-->
-              <div class="container col-xs-4">
-                <div class="imgcontainer col-xs-2">
-                  <img class="headshot" src="images/ervin.jpg"/>
-                </div>
-                <div class="container col-xs-2">
-                  <h3><strong>Ervin Baccay</strong></h3>
-                  <h4>EECS/Bio-Engineering</h4>
-                </div>
-              </div>
-
-              <!--Generic Engineer Block - Dylan D-->
-              <div class="container col-xs-4">
-                <div class="imgcontainer col-xs-2">
-                  <img class="headshot" src="images/dylan.jpg"/>
-                </div>
-                <div class="container col-xs-2">
-                  <h3><strong>Dylan Duong</strong></h3>
                   <h4>EECS</h4>
                 </div>
               </div>
@@ -291,9 +307,11 @@
                 <h5>email: robobears@berkeley.edu</h5>
               </div>
               <div class="container text-right">
-                <a onclick="" class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/groups/296657784040191/"><i class="fa fa-facebook"></i></a>
+                <a onclick="" class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/calrobobears"><i class="fa fa-facebook"></i></a>
+                <!-- UNCOMMENT WHEN PAGES ARE MADE
                   <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox"><i class="fa fa-twitter"></i></a>
-                <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox"><i class="fa fa-instagram"></i></a>
+                  <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox"><i class="fa fa-instagram"></i></a>
+                -->
                 <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox" href="https://www.ocf.berkeley.edu/"><i class="icon-ocf"></i></a>
               </div>
             </div>

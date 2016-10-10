@@ -9,10 +9,41 @@ header li a {
 	font-weight: 200;
 }
 
+header div {
+    display: block;
+}
+
+.header-nav-item{
+	float:left;
+}
+
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+#list ul{
+	list-style: none;
+	width: 100%;
+}
+
+#list li {
+		list-style-type: none;
+		display: inline-block;
+		margin-top: 20px;
+		margin-bottom: 10px;
+}
+
+.header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #cccccc;
+    border-bottom: 1px solid #e5e5e5;
+}
+
 body {
 	background: #dddddd;
 	margin-bottom: 150px;
-	padding-top: 50px;
 }
 
 #sponsorrequest {
@@ -84,10 +115,15 @@ footer .col-sm-4 {
 
 #sponsortitle {
 	font-size: 100px;
+	position: absolute;
+	top: -15px;
 }
 
 #words {
-	margin-top: 50px;
+	position: absolute;
+	top: 350px;
+	left: 150px;
+	right: 75px;
 }
 
 .jumbotron {
@@ -99,24 +135,23 @@ footer .col-sm-4 {
 }
 
 .jumbotron > .backgroundimage{
+	background-position: center;
 	position: absolute;
 	display: flex;
-	background-image: url('../images/background_img_1.jpg');
+	background-image: url('../images/grouppic.jpg');
 	background-size: cover;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	opacity: .3;
+	opacity: .7;
 	z-index: -1;
-	width: 100%;
 	height: 100%;
 }
 
 .jumbotron > .container {
 	color: white;
 	text-shadow: 10px 10px 10px black;
-	vertical-align: middle;
 	height: 500px;
 }
 
@@ -142,19 +177,6 @@ footer .col-sm-4 {
 #contactinfo div {
 	margin-left: 10px;
 	font-size: 12px;
-}
-
-.nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #000000;
-    background-color: transparent;
-}
-
-.navbar-fixed-top {
-	background-color: #cccccc;
-	height: 50px;
-	padding-top: 2.5px;
-	padding-right: 1px;
-	padding-left: 1px;
 }
 
 header .active {

@@ -31,23 +31,38 @@
   		<div style="min-width: 1080px; margin: 0 auto;">
 
 		    <!--Navigation Bar-->
-		    <header id="navigationbar" class="container">
-		    	<div class="row">
-		    		<ul class="nav nav-justified navbar-fixed-top" role="navigation">
-		    			<li>
-		    				<img src="images/RoboBears_Logo.svg" style="width: 25%; height: auto; margin-left: 100px">
-		    			</li>
-		    			<li role="presentation"><a class="sliding-middle-out" href="home.html" style="position: relative;">home</a></li>
-		  				<li role="presentation"><a class="sliding-middle-out" href="about.html" style="position: relative;">about</a></li>
-		  				<li role="presentation"><a class="sliding-middle-out active" href="buildlog.html" style="position: relative;">buildlog</a></li>
-		  				<!--li role="presentation"><a class="sliding-middle-out" href="apply.html" style="position: relative;">apply</a></li-->
-		  				<li role="presentation"><a class="sliding-middle-out" href="competition.html" style="position: relative;">competition</a></li>
-		  				<!--<li role="presentation"><a class="sliding-middle-out" href="resources.html" style="position: relative;">resources</a></li>-->
-		  				<li role="presentation"><a class="sliding-middle-out" href="sponsors.html" style="position: relative;">sponsors</a></li>
-		  				<!--<li role="presentation"><a class="sliding-middle-out" href="donate.html" style="position: relative;">donate</a></li>-->
-		  				<span></span>
-		    		</ul>
-		    	</div>
+		    <header id="navigationbar">
+				<div class="header header-logged-in true" style="min-width:1080px;"role="banner">
+					<div class="row" style="white-space:nowrap;">
+					  <ul id="list" class="header-nav float-left" role="navigation">
+					    <li class="header-nav-item" style="margin-left:30px; margin-right:25px;">
+					      <a href="home.html">
+					        <img src="images/RoboBears_Logo.svg" height="40" width="70">
+					      </a>
+					    </li>
+					    <li class="header-nav-item sliding-middle-out" style="margin-left:25px; margin-right:25px;">
+					      <a class="js-selected-navigation-item header-nav-link" href="about.html">
+					        &nbsp&nbsp&nbsp&nbspabout&nbsp&nbsp&nbsp&nbsp
+					      </a>
+					    </li>
+					    <li class="header-nav-item sliding-middle-out" style="margin-left:25px; margin-right:25px;">
+					        <a class="js-selected-navigation-item header-nav-link active" style="text-decoration:none" href="buildlog.html">
+					          &nbsp&nbsp&nbsp&nbspbuildlog&nbsp&nbsp&nbsp&nbsp
+					        </a>
+					      </li>
+					    <li class="header-nav-item"style="margin-left:25px; margin-right:25px;">
+					      <a class="header-nav-link sliding-middle-out" style="text-decoration:none" href="competition.html">
+					        &nbsp&nbsp&nbsp&nbspcompetition&nbsp&nbsp&nbsp&nbsp
+					      </a>
+					    </li>
+					    <li class="header-nav-item" style="margin-left:25px; margin-right:25px;">
+					      <a class="header-nav-link sliding-middle-out" href="sponsors.html" style="text-decoration:none">
+					        &nbsp&nbsp&nbsp&nbspsponsors&nbsp&nbsp&nbsp&nbsp
+					      </a>
+					    </li>
+					  </ul>
+					</div>
+				</div>
 		    </header>
 
 		    <!--Banner-->
@@ -109,9 +124,11 @@
 			    			<h5>email: robobears@berkeley.edu</h5>
 			            </div>
 				    	<div class="container text-right">
-				            <a onclick="" class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/groups/296657784040191/"><i class="fa fa-facebook"></i></a>
+				            <a onclick="" class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/calrobobears"><i class="fa fa-facebook"></i></a>
+				            <!-- UNCOMMENT WHEN PAGES ARE MADE
 				            <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox"><i class="fa fa-twitter"></i></a>
 					        <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox"><i class="fa fa-instagram"></i></a>
+					        -->
 					        <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox" href="https://www.ocf.berkeley.edu/"><i class="icon-ocf"></i></a>
 			            </div>
 		            </div>

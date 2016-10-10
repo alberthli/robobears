@@ -33,32 +33,49 @@
       <div style="min-width: 1080px; margin: 0 auto;">
 
         <!--Navigation Bar-->
-        <header id="navigationbar" class="container">
-          <div class="row">
-            <ul class="nav navbar nav-justified navbar-fixed-top nav-custom" role="navigation">
-              <li>
-                <img src="images/RoboBears_Logo.svg" style="width: 25%; height: auto; margin-left: 100px;" href="index.html">
+        <header id="navigationbar">
+        <div class="header header-logged-in true" style="min-width:1080px;"role="banner">
+          <div class="row" style="white-space:nowrap;">
+            <ul id="list" class="header-nav float-left" role="navigation">
+              <li class="header-nav-item" style="margin-left:30px; margin-right:25px;">
+                <a href="home.html">
+                  <img src="images/RoboBears_Logo.svg" height="40" width="70">
+                </a>
               </li>
-              <li role="presentation"><a class="sliding-middle-out" href="home.html" style="position: relative;">home</a></li>
-              <li role="presentation"><a class="sliding-middle-out" href="about.html" style="position: relative;">about</a></li>
-              <li role="presentation"><a class="sliding-middle-out" href="buildlog.html" style="position: relative;">buildlog</a></li>
-              <!--li role="presentation"><a class="sliding-middle-out" href="apply.html" style="position: relative;">apply</a></li-->
-              <li role="presentation"><a class="sliding-middle-out" href="competition.html" style="position: relative;">competition</a></li>
-              <!--<li role="presentation"><a class="sliding-middle-out" href="resources.html" style="position: relative;">resources</a></li>-->
-              <li role="presentation"><a class="sliding-middle-out active" href="sponsors.html" style="position: relative;">sponsors</a></li>
-              <!--<li role="presentation"><a class="sliding-middle-out" href="donate.html" style="position: relative;">donate</a></li>-->
-              <span></span>
+              <li class="header-nav-item sliding-middle-out" style="margin-left:25px; margin-right:25px;">
+                <a class="js-selected-navigation-item header-nav-link" href="about.html">
+                  &nbsp&nbsp&nbsp&nbspabout&nbsp&nbsp&nbsp&nbsp
+                </a>
+              </li>
+              <li class="header-nav-item sliding-middle-out" style="margin-left:25px; margin-right:25px;">
+                  <a class="js-selected-navigation-item header-nav-link" style="text-decoration:none" href="buildlog.html">
+                    &nbsp&nbsp&nbsp&nbspbuildlog&nbsp&nbsp&nbsp&nbsp
+                  </a>
+                </li>
+              <li class="header-nav-item"style="margin-left:25px; margin-right:25px;">
+                <a class="header-nav-link sliding-middle-out" style="text-decoration:none" href="competition.html">
+                  &nbsp&nbsp&nbsp&nbspcompetition&nbsp&nbsp&nbsp&nbsp
+                </a>
+              </li>
+              <li class="header-nav-item" style="margin-left:25px; margin-right:25px;">
+                <a class="header-nav-link sliding-middle-out class" href="sponsors.html" style="text-decoration:none">
+                  &nbsp&nbsp&nbsp&nbspsponsors&nbsp&nbsp&nbsp&nbsp
+                </a>
+              </li>
             </ul>
           </div>
+        </div>
         </header>
 
         <!--Banner-->
-        <div class="jumbotron text-center container">
+        <div class="jumbotron container">
           <div class="container backgroundimage"></div>
-          <div id="words" class="container">
+          <div class="container">
             <h1 id="sponsortitle">our sponsors</h1>
-            <h3>These are the gracious companies and individuals that make it all possible.</h3>
-            <h3>Take a second to see what they have to say!</h3>
+            <div id="words" class="text-right">
+              <h3>To the gracious companies and individuals that make it all possible - RoboBears thanks you!</h3>
+              <h3>Check them out below!</h3>
+            </div>
           </div>
         </div>
 
@@ -75,14 +92,9 @@
 
           <!--Sponsorship Request-->
           <div id="sponsorrequest" class="container row">
-            <div class="col-xs-6 text-center">
-              <div class="imgAbt">
-                  <img width="450" height="300" src="images/grouppic.jpg"/>
-              </div>
-            </div>
-            <div class="container text-left col-xs-6">
+            <div class="container text-center">
               <h1 id="question">want to be a sponsor?</h1>
-              <h3 class="text-left">We're a small but dedicated team sure to learn and grow. If you're interested in sponsoring us, email Stella at seo.jysk@berkeley.edu or anyone else on the board!</h3>
+              <h3 class="text-left">We're a small but dedicated team ready to tackle any challenge. If you're interested in supporting our growth, email Stella at seo.jysk@berkeley.edu!</h3>
             </div>
           </div>
 
@@ -98,9 +110,11 @@
                 <h5>email: robobears@berkeley.edu</h5>
               </div>
               <div class="container text-right">
-                <a onclick="" class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/groups/296657784040191/"><i class="fa fa-facebook"></i></a>
+                <a onclick="" class="btn btn-social-icon btn-lg btn-facebook" href="https://www.facebook.com/calrobobears"><i class="fa fa-facebook"></i></a>
+                <!-- UNCOMMENT WHEN PAGES ARE MADE
                   <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox"><i class="fa fa-twitter"></i></a>
-                <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox"><i class="fa fa-instagram"></i></a>
+                  <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox"><i class="fa fa-instagram"></i></a>
+                -->
                 <a onclick="" class="btn btn-social-icon btn-lg btn-dropbox" href="https://www.ocf.berkeley.edu/"><i class="icon-ocf"></i></a>
               </div>
             </div>

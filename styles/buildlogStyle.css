@@ -14,6 +14,43 @@ body {
 	margin-bottom: 200px;
 }
 
+header div {
+    display: block;
+}
+
+.header-nav-item{
+	float:left;
+}
+
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+#list ul{
+	list-style: none;
+	width: 100%;
+}
+
+#list li {
+		list-style-type: none;
+		display: inline-block;
+		margin-top: 20px;
+		margin-bottom: 10px;
+}
+
+.header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #cccccc;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+body {
+	background: #dddddd;
+	margin-bottom: 200px;
+}
+
 #banner {
 	display: fill;
 }
@@ -53,7 +90,7 @@ body {
 }
 
 #logtitle{
-	font-size: 75px;
+	font-size: 50px;
 }
 
 #line {
@@ -118,39 +155,9 @@ footer .col-sm-4 {
 	left: 275px;
 }
 
-#designpanel:hover {
-	opacity: 1;
-}
-
-#createpanel:hover {
-	opacity: 1;
-}
-
-#innovatepanel:hover {
-	opacity: 1;
-}
-
-#descriptionparagraph {
-	margin-top: 20px;
-	font-size: 20px;
-}
-
 #contactinfo div {
 	margin-left: 10px;
 	font-size: 12px;
-}
-
-.nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #000000;
-    background-color: transparent;
-}
-
-.navbar-fixed-top {
-	background-color: #cccccc;
-	height: 50px;
-	padding-top: 2.5px;
-	padding-right: 1px;
-	padding-left: 1px;
 }
 
 header .active {
