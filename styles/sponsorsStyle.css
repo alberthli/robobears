@@ -93,7 +93,7 @@ footer {
 	width: 100%;
 	padding-top: 15px;
 	font-size: 20px;
-	height: 150px;
+	height: 175px;
 	min-width: 1080px;
 }
 
@@ -159,6 +159,7 @@ footer .col-sm-4 {
 	height: auto;
 	min-height: 100%;
 	min-width: 1080px;
+	padding-bottom: 25px;
 	box-sizing: border-box;
 }
 
@@ -179,7 +180,7 @@ footer .col-sm-4 {
 	font-size: 12px;
 }
 
-header .active {
+.active {
 	font-weight: bold;
 }
 
